@@ -5,7 +5,8 @@ import { NgModule } from '@angular/core';
 	
 	const routes:Routes=[
 	     {path:'add',component:AddComponent},
-	      {path:'view',component:ViewComponent}
+	      {path:'view',component:ViewComponent},
+		      {path:'add/:id',component:AddDetailComponent}
 	]
 	
 	@NgModule({
@@ -17,6 +18,6 @@ import { NgModule } from '@angular/core';
 	    ]
 	})
 	export class AppRoutingModule{}
-	export const routingComponents=[AddComponent,ViewComponent]
+	export const routingComponents=[AddComponent,ViewComponent,AddDetailComponent]
 
 
