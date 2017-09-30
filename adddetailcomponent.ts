@@ -15,5 +15,6 @@ constructor(private route:ActivatedRoute){
 ngOnInit(){
  let id= this.route.snapshot.params['id']
   this.additionId=id;
+ 
 }
 }
